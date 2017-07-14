@@ -22,3 +22,4 @@ ENV PATH=${PATH}:/opt/puppetlabs/bin/
 RUN gem install librarian-puppet
 RUN echo n | librarian-puppet init
 RUN librarian-puppet install
+RUN cp -r /development/modules/ /opt/puppetlabs/puppet/
