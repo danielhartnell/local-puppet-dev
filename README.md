@@ -1,6 +1,6 @@
 # Setup
 
-```
+```bash
 $ docker build . -t local-puppet-dev
 $ docker run -it local-puppet-dev bash
 root@92f09419ca7f:/development# ls
